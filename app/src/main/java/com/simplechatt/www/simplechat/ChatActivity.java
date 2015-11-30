@@ -142,7 +142,7 @@ public class ChatActivity extends AppCompatActivity {
             @Override
             public void done(ParseUser user, ParseException e) {
                 if(e != null) {
-                    Log.d(TAG, "Anonymus user login failed" +e.toString());
+                    Log.d(TAG, "Anonymous user login failed" +e.toString());
                 }else {
                     startWithCurrentUser();
                 }
